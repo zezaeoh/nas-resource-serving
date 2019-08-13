@@ -3,3 +3,6 @@ server:
 
 nas:
   base-path: /Users/jaegeon/Downloads/
+  http:
+    auth-token: a
+    auth-token-request-header: b

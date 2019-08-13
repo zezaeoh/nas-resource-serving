@@ -53,7 +53,7 @@ public class ServingController {
                 .body(jsonObj);
     }
 
-    @PostMapping(value = "/uploadToNasDump",
+    @PostMapping(value = "/uploadToNas/dump",
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity uploadNasResource(@RequestParam("upload") MultipartFile[] uploadFiles){
